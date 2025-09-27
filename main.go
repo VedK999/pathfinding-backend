@@ -125,7 +125,8 @@ func main() {
 		"http://localhost:3000",
 		"http://localhost:5173",
 		"https://*.netlify.app",
-		"https://netlify.app"})
+		"https://netlify.app",
+		"https://pathfinder-visualization.netlify.app/"})
 
 	port := os.Getenv("PORT")
 	if port == "" {
