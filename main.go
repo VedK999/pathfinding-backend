@@ -124,7 +124,7 @@ func main() {
 	origins := handlers.AllowedOrigins([]string{
 		"http://localhost:3000",
 		"http://localhost:5173",
-		"https://pathfinder-visualization.netlify.app/"})
+		"https://pathfinder-visualization.netlify.app"})
 
 	port := os.Getenv("PORT")
 	if port == "" {
